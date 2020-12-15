@@ -1,11 +1,18 @@
-import './App.css';
+import './App.scss';
 
 function App() {
 	return (
 		<div className="App">
-			O Protections
-			<br />
-			Air Purifiers
+			<div className="circle">
+				<div>
+					<div className="name">
+						O Protections
+						<br />
+						Air Purifiers
+					</div>
+					<div className="coming-soon">Coming Soon</div>
+				</div>
+			</div>
 		</div>
 	);
 }
