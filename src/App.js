@@ -1,20 +1,14 @@
-import './App.scss';
+import "./App.scss";
+import ErrorPage from "./components/ErrorPage";
+import Header from "./components/Header";
 
 function App() {
-	return (
-		<div className="App">
-			<div className="circle">
-				<div>
-					<div className="name">
-						O Protections
-						<br />
-						Air Purifiers
-					</div>
-					<div className="coming-soon">Coming Soon</div>
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div className="App">
+      {/* <Header /> */}
+      <ErrorPage />
+    </div>
+  );
 }
 
 export default App;

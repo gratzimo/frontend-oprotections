@@ -1,0 +1,35 @@
+.error-page {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(105, 105, 105, 0.6);
+  font-size: 60px;
+  height: 100vh;
+  width: 100vw;
+  font-family: "DeValencia";
+  .circle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    border: 5px solid rgb(135, 228, 228);
+    div {
+      .name {
+        height: 90%;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .coming-soon {
+        margin-bottom: 5%;
+        font-size: 40px;
+      }
+    }
+  }
+}

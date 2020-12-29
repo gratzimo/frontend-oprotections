@@ -1,0 +1,33 @@
+$menu-item-padding: 30px;
+
+.header-component {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  position: relative;
+  padding: 0 $menu-item-padding;
+  font-family: "DeValencia";
+//   letter-spacing: -4px;
+  .oprotections {
+    font-size: 16px;
+    padding: $menu-item-padding;
+  }
+  .logo-div {
+    position: absolute;
+    left: calc(50% - 20px);
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    .menu-item {
+      padding: 0 $menu-item-padding;
+    }
+    .buy-now {
+      padding: 0 $menu-item-padding;
+    }
+  }
+}
