@@ -8,15 +8,18 @@ $menu-item-padding: 30px;
   background-color: transparent;
   position: relative;
   padding: 0 $menu-item-padding;
-  font-family: "DeValencia";
-//   letter-spacing: -4px;
+  // float: inline-end;
+  // font-family: "DeValencia";
+  //   letter-spacing: -4px;
   .oprotections {
     font-size: 16px;
     padding: $menu-item-padding;
+    cursor: pointer;
   }
   .logo-div {
     position: absolute;
     left: calc(50% - 20px);
+    cursor: pointer;
   }
   .menu {
     display: flex;
@@ -25,9 +28,24 @@ $menu-item-padding: 30px;
     font-size: 14px;
     .menu-item {
       padding: 0 $menu-item-padding;
+      cursor: pointer;
     }
     .buy-now {
-      padding: 0 $menu-item-padding;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(99, 228, 233, 0.7);
+      border-radius: 50%;
+      min-height: 50px;
+      min-width: 50px;
+      line-height: 2px;
+      color: white;
+      cursor: pointer;
+      margin: 0 $menu-item-padding;
+      a {
+        text-decoration: none !important;
+        color: inherit;
+      }
     }
   }
 }

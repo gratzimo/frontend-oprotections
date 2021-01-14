@@ -2,6 +2,10 @@
   width: 100vw;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

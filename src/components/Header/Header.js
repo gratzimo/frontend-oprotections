@@ -13,7 +13,7 @@ function Header(props) {
         <div className="menu-item">About Us</div>
         <div className="menu-item">Contact</div>
         <div className="menu-item">Enquiry</div>
-        <div className="buy-now">Buy</div>
+        <div className="buy-now"><a href="mailto:someone@example.com">Buy</a></div>
       </div>
     </div>
   );
