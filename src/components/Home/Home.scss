@@ -1,39 +1,49 @@
 .home-component {
   position: relative;
   display: flex;
-  //   align-items: center;
-  justify-content: space-between;
-  height: 100vh;
+  // align-items: center;
+  justify-content: center;
+  // height: 100vh;
   width: 100%;
   .home-bg {
-    overflow: hidden;
-    position: absolute;
-    top: -361px;
+    // overflow: hidden;
+    // position: absolute;
+    // top: -361px;
     width: 100%;
     z-index: -1;
   }
-  .air-purifier {
-    margin-top: 5vw;
-    margin-bottom: 10vw;
-    height: 30vw;
+  .ap-div {
+    left: 0;
+    top: 10vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .air-purifier {
+      height: clamp(20vh, 55vh, 60vh);
+    }
   }
   .details-div {
-    width: 22vw;
-    margin: 10vw 5vw;
-    .details-head {
-      font-size: 16px;
-      color: grey;
-      line-height: 0.6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .details-heading {
+      margin-top: 5rem;
+      font-size: 5rem;
+      color: rgba(0, 0, 0, 0.6);
     }
-    .details-name {
-      font-size: 50px;
-      font-weight: bold;
-      color: rgba(111, 111, 111, 1);
+    .details-subheading {
+      font-size: 1.8rem;
+      color: rgba(0, 0, 0, 0.6);
     }
     .details-text {
-      margin-top: 20px;
-      font-size: 20px;
-      color: rgba(100, 100, 100, 1);
+      margin-top: 1rem;
+      font-size: 1rem;
+      width: 50ch;
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 3ch;
     }
   }
 }

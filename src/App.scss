@@ -1,8 +1,15 @@
 .App {
   width: 100vw;
+  .top-bg {
+    background: url("./static/images/home-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+  }
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
