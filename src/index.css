@@ -23,3 +23,9 @@ code {
   src: local("SIMPLIFICA"),
     url("./static/fonts/SIMPLIFICA.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "NugoSansLight";
+  src: local("NugoSansLight"),
+    url("./static/fonts/NugoSansLight.ttf") format("truetype");
+}

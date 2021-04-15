@@ -1,0 +1,25 @@
+.component-feature-list {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(102, 201, 238);
+  .features-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 0;
+    color: white;
+    .feature-title {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 1.5rem;
+      width: 18ch;
+      font-weight: bold;
+    }
+    > img {
+      height: 70px;
+    }
+  }
+}

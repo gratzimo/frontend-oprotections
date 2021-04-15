@@ -5,8 +5,8 @@ function Intro(props) {
   return (
     <div className="component-intro">
       <div className="intro-heading">
-        O Air Purifier keeps your indoor air <br />
-        <span>clean as fuck</span>
+        O Air Purifier<br />
+        <span>keeps your indoor air sterile</span>
       </div>
       <div className="intro-subheading">
         Clean air is not a luxury, it’s a necessity now. With the rise of air
@@ -16,12 +16,12 @@ function Intro(props) {
       </div>
       <div className="details-div">
         <div className="data-div">
-          <div className="data">40%</div>
-          <div className="data-name">more compact</div>
+          <div className="data">5.0</div>
+          <div className="data-name">ACH</div>
         </div>
         <div className="line-div"></div>
         <div className="data-div">
-          <div className="data">310</div>
+          <div className="data">405</div>
           <div className="data-name">CADR</div>
         </div>
       </div>

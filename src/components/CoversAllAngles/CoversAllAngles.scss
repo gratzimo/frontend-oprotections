@@ -1,0 +1,68 @@
+.component-covers-all-angles {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rem 0;
+  background: rgb(230, 230, 230);
+  background: linear-gradient(
+    0deg,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  .caa-heading {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .caa-subheading {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 70ch;
+    line-height: 2.5ch;
+  }
+  .caa-image-div {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    .caa-specs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      .caa-data-div {
+        margin-bottom: 3rem;
+        .caa-data {
+          font-size: 3rem;
+          color: rgb(102, 201, 238);
+        }
+        .caa-data-name {
+          text-align: center;
+          margin-top: 0.5rem;
+          font: 1.2rem;
+          color: rgba(0, 0, 0, 0.5);
+          font-weight: bold;
+        }
+      }
+    }
+    .caa-img {
+      > img {
+        height: 500px;
+        filter: contrast(1.25);
+      }
+    }
+  }
+  .tagline-div {
+    margin-top: 10rem;
+    font-size: 3rem;
+    color: rgb(102, 201, 238);
+    font-weight: bolder;
+  }
+}

@@ -8,9 +8,7 @@ function Home(props) {
     <div className="home-component">
       {/* <div className="home-bg"></div> */}
       {/* <img className="home-bg" src={homeBg} alt="home-bg" /> */}
-      <div className="ap-div">
-        <img className="air-purifier" src={airPurifier} alt="air-purifier" />
-      </div>
+
       <div className="details-div">
         <div className="details-heading">O Air Purifier</div>
         <div className="details-subheading">Be smart and join the genius</div>
@@ -19,6 +17,9 @@ function Home(props) {
           UV Air purifier with certified gas & Hepa filtration
           <br />
           Live AQI
+        </div>
+        <div className="ap-div">
+          <img className="air-purifier" src={airPurifier} alt="air-purifier" />
         </div>
       </div>
     </div>

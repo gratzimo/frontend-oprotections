@@ -1,0 +1,75 @@
+.component-ultra-quiet {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgb(230, 230, 230);
+  background: linear-gradient(
+    0deg,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 10rem 0 15rem;
+  .uq-title {
+    font-size: 3.5rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .uq-subtitle {
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 70ch;
+    line-height: 2.5ch;
+  }
+  .energy-data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .image-div {
+      > img {
+        height: 600px;
+      }
+    }
+    .energy-stats {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .energy-title {
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 2rem;
+        margin: 5rem 0 3rem;
+        > span {
+          font-size: 1rem;
+          line-height: 1;
+        }
+      }
+      .energy-data-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        .data-div {
+          .data {
+            font-size: 3rem;
+            color: rgb(102, 201, 238);
+          }
+          .data-name {
+            margin-top: 0.5rem;
+            font: 1.2rem;
+            color: rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .tagline-title {
+    margin-top: 10rem;
+    font-size: 3rem;
+    color: rgb(102, 201, 238);
+    font-weight: bolder;
+  }
+}
